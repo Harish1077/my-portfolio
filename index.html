@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Harish Ragavendra — Cloud Computing student portfolio. Projects, skills, education, and contact."
+    />
+    <title>Harish Ragavendra | Cloud Computing Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="site">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-text">harish.dev</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navLinks">
+            <span class="sr-only">Toggle menu</span>
+            <span class="hamburger" aria-hidden="true"></span>
+          </button>
+
+          <div class="nav-links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle dark mode">
+            <span class="icon" aria-hidden="true" data-icon="theme"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="kicker">
+              <span class="pill">Available for internships</span>
+              <span class="mono">Cloud • Backend • Web</span>
+            </p>
+
+            <h1 class="hero-title">
+              <span class="hero-name">Harish Ragavendra</span>
+              <span class="hero-title-accent">Cloud Computing Student</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              <span class="mono">Cloud Computing Student | Aspiring Cloud Engineer</span>
+            </p>
+
+            <p class="hero-tagline">
+              “Building scalable solutions and learning modern cloud technologies.”
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#projects">
+                <span class="icon" aria-hidden="true" data-icon="rocket"></span>
+                View Projects
+              </a>
+              <a class="btn btn-ghost" href="#contact">
+                <span class="icon" aria-hidden="true" data-icon="mail"></span>
+                Contact Me
+              </a>
+              <a
+                class="btn btn-soft"
+                href="./assets/Harish_Ragavendra_Resume.pdf"
+                download="Harish_Ragavendra_Resume.pdf"
+              >
+                <span class="icon" aria-hidden="true" data-icon="download"></span>
+                Download Resume
+              </a>
+            </div>
+
+            <div class="hero-metrics">
+              <div class="metric-card">
+                <div class="metric-value mono">3rd Year</div>
+                <div class="metric-label">B.Tech CSE (Cloud)</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-value mono">2027</div>
+                <div class="metric-label">Expected Graduation</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-value mono">LPU × Google</div>
+                <div class="metric-label">Program Collaboration</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel reveal">
+            <div class="code-card">
+              <div class="code-card-header">
+                <span class="dot dot-red" aria-hidden="true"></span>
+                <span class="dot dot-yellow" aria-hidden="true"></span>
+                <span class="dot dot-green" aria-hidden="true"></span>
+                <span class="mono code-card-title">cloud-engineer.ts</span>
+              </div>
+              <pre class="code-card-body" aria-label="Intro code snippet"><code><span class="code-dim">// focus areas</span>
+<span class="code-keyword">const</span> profile = {
+  name: <span class="code-string">"Harish Ragavendra"</span>,
+  track: <span class="code-string">"Cloud Computing"</span>,
+  interests: [<span class="code-string">"Infrastructure"</span>, <span class="code-string">"Backend"</span>, <span class="code-string">"Scalable systems"</span>],
+  currentlyLearning: [<span class="code-string">"Cloud platforms"</span>, <span class="code-string">"Web development"</span>],
+};
+
+<span class="code-keyword">export</span> <span class="code-keyword">default</span> profile;</code></pre>
+            </div>
+
+            <div class="social-row" aria-label="Quick links">
+              <a class="chip" href="#contact">
+                <span class="icon" aria-hidden="true" data-icon="link"></span>
+                Let’s connect
+              </a>
+              <a class="chip" href="#projects">
+                <span class="icon" aria-hidden="true" data-icon="grid"></span>
+                Featured work
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-bg" aria-hidden="true">
+          <div class="blob blob-1"></div>
+          <div class="blob blob-2"></div>
+          <div class="grid-overlay"></div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-head-text">
+              <span class="section-eyebrow"><span class="section-eyebrow-num">01</span> Profile</span>
+              <h2 class="section-title">About Me</h2>
+            </div>
+            <p class="section-subtitle mono">A quick intro and what I’m building toward.</p>
+          </div>
+
+          <div class="about-grid">
+            <div class="card card-large reveal">
+              <div class="card-title-row">
+                <span class="icon" aria-hidden="true" data-icon="user"></span>
+                <h3 class="card-title">Professional Summary</h3>
+              </div>
+              <p class="muted">
+                I am a 3rd-year B.Tech Computer Science Engineering student specializing in Cloud
+                Computing at Lovely Professional University. My program is conducted in collaboration
+                with Google, where I am learning modern cloud infrastructure and scalable computing
+                systems.
+              </p>
+              <p class="muted">
+                I am passionate about cloud technologies, backend systems, and building real-world
+                applications. I enjoy learning new technologies, solving technical problems, and
+                developing practical software projects.
+              </p>
+              <p class="muted">
+                Currently, I am focused on improving my skills in programming, cloud platforms, and
+                web development while preparing for a career as a Cloud Engineer.
+              </p>
+            </div>
+
+            <div class="card reveal">
+              <div class="card-title-row">
+                <span class="icon" aria-hidden="true" data-icon="target"></span>
+                <h3 class="card-title">Current Focus</h3>
+              </div>
+              <ul class="list">
+                <li><span class="mono">Cloud</span>: fundamentals, architecture, scalability</li>
+                <li><span class="mono">Backend</span>: APIs, data modeling, reliability basics</li>
+                <li><span class="mono">Web</span>: clean UI, responsive layout, modern JS</li>
+              </ul>
+            </div>
+
+            <div class="card reveal">
+              <div class="card-title-row">
+                <span class="icon" aria-hidden="true" data-icon="spark"></span>
+                <h3 class="card-title">What I Value</h3>
+              </div>
+              <ul class="list">
+                <li>Practical learning through projects</li>
+                <li>Clean, maintainable code</li>
+                <li>Systems thinking and problem solving</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-head-text">
+              <span class="section-eyebrow"><span class="section-eyebrow-num">02</span> Expertise</span>
+              <h2 class="section-title">Skills</h2>
+            </div>
+            <p class="section-subtitle mono">Core tools and the fundamentals I’m sharpening.</p>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card reveal">
+              <div class="skill-head">
+                <span class="icon" aria-hidden="true" data-icon="code"></span>
+                <h3 class="skill-title">Programming Languages</h3>
+              </div>
+              <div class="skill-bars">
+                <div class="bar" data-level="78">
+                  <div class="bar-top">
+                    <span>Python</span><span class="mono">Intermediate</span>
+                  </div>
+                  <div class="bar-track"><div class="bar-fill"></div></div>
+                </div>
+                <div class="bar" data-level="65">
+                  <div class="bar-top"><span>Java</span><span class="mono">Comfortable</span></div>
+                  <div class="bar-track"><div class="bar-fill"></div></div>
+                </div>
+                <div class="bar" data-level="60">
+                  <div class="bar-top"><span>C++</span><span class="mono">Basic+</span></div>
+                  <div class="bar-track"><div class="bar-fill"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-head">
+                <span class="icon" aria-hidden="true" data-icon="layout"></span>
+                <h3 class="skill-title">Web Development</h3>
+              </div>
+              <div class="skill-bars">
+                <div class="bar" data-level="80">
+                  <div class="bar-top"><span>HTML</span><span class="mono">Strong</span></div>
+                  <div class="bar-track"><div class="bar-fill"></div></div>
+                </div>
+                <div class="bar" data-level="76">
+                  <div class="bar-top"><span>CSS</span><span class="mono">Strong</span></div>
+                  <div class="bar-track"><div class="bar-fill"></div></div>
+                </div>
+                <div class="bar" data-level="70">
+                  <div class="bar-top"><span>JavaScript</span><span class="mono">Growing</span></div>
+                  <div class="bar-track"><div class="bar-fill"></div></div>
+                </div>
+                <div class="bar" data-level="45">
+                  <div class="bar-top"><span>React.js</span><span class="mono">Basic</span></div>
+                  <div class="bar-track"><div class="bar-fill"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-head">
+                <span class="icon" aria-hidden="true" data-icon="cloud"></span>
+                <h3 class="skill-title">Cloud &amp; Tools</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="tag">Cloud Computing Fundamentals</span>
+                <span class="tag">Git &amp; GitHub</span>
+                <span class="tag">Linux Basics</span>
+              </div>
+              <div class="divider"></div>
+              <div class="skill-head">
+                <span class="icon" aria-hidden="true" data-icon="cpu"></span>
+                <h3 class="skill-title">Core Concepts</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="tag">Data Structures &amp; Algorithms (basic)</span>
+                <span class="tag">Problem Solving</span>
+                <span class="tag">Object Oriented Programming</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-head-text">
+              <span class="section-eyebrow"><span class="section-eyebrow-num">03</span> Selected work</span>
+              <h2 class="section-title">Projects</h2>
+            </div>
+            <p class="section-subtitle mono">Full-stack builds, ML, and systems-focused work.</p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-top">
+                <div class="project-title-row">
+                  <h3 class="project-title">AI-Powered Process Analyzer (Kali Linux)</h3>
+                  <span class="pill pill-soft mono">Mar 2025 – Jun 2025</span>
+                </div>
+                <p class="muted">
+                  A security-focused, autonomous system monitor deployed on Kali Linux, using
+                  Isolation Forest for real-time anomaly detection and Prophet for resource
+                  forecasting, running as a background service.
+                </p>
+                <ul class="list">
+                  <li>
+                    Developed a Python-based monitor tracking CPU, memory, and I/O usage in real
+                    time; integrated Isolation Forest for anomaly detection and Prophet for
+                    forecasting.
+                  </li>
+                  <li>
+                    Deployed as an autonomous background service with keyword-based threat detection
+                    to identify and automatically terminate suspicious processes.
+                  </li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span class="tag">Python</span>
+                <span class="tag">Kali Linux</span>
+                <span class="tag">Isolation Forest</span>
+                <span class="tag">Prophet</span>
+                <span class="tag">System Service</span>
+              </div>
+              <div class="project-actions">
+                <a
+                  class="link"
+                  href="https://github.com/Harish1077/AI-Powered-OS-Process-Performance-Analyzer"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="icon" aria-hidden="true" data-icon="github"></span>
+                  GitHub
+                </a>
+                <a class="link" href="#contact">
+                  <span class="icon" aria-hidden="true" data-icon="arrow"></span>
+                  Request details
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <div class="project-title-row">
+                  <h3 class="project-title">SportsPulse – AI-Powered Sports News Aggregator</h3>
+                  <span class="pill pill-soft mono">Feb 2025 – Apr 2025</span>
+                </div>
+                <p class="muted">
+                  A full-stack web application (Node.js/Express) that aggregates real-time sports
+                  news via the News API, featuring an integrated Google Gemini AI chatbot for
+                  interactive updates and query handling.
+                </p>
+                <ul class="list">
+                  <li>
+                    Engineered a responsive full-stack Node.js/Express platform that aggregates and
+                    filters real-time sports news using the News API, with secure <span class="mono">.env</span>-based
+                    API key management and a modern UI.
+                  </li>
+                  <li>
+                    Integrated a Google Gemini AI chatbot delivering personalized insights and
+                    handling complex queries—demonstrating LLM-powered application design.
+                  </li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span class="tag">Node.js</span>
+                <span class="tag">Express</span>
+                <span class="tag">NewsAPI</span>
+                <span class="tag">Gemini AI</span>
+                <span class="tag">HTML/CSS/JS</span>
+              </div>
+              <div class="project-actions">
+                <a
+                  class="link"
+                  href="https://github.com/Harish1077/AI-SPORTS-NEWS-AGGEREGATOR"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="icon" aria-hidden="true" data-icon="github"></span>
+                  GitHub
+                </a>
+                <a class="link" href="#contact">
+                  <span class="icon" aria-hidden="true" data-icon="arrow"></span>
+                  Collaborate
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <div class="project-title-row">
+                  <h3 class="project-title">Fake Review Detector</h3>
+                  <span class="pill pill-soft mono">Feb 2025 – May 2025</span>
+                </div>
+                <p class="muted">
+                  This project enhances digital trust by delivering a robust machine-learning
+                  solution designed to distinguish genuine product reviews from fraudulent ones,
+                  demonstrating end-to-end expertise in building, evaluating, and deploying a
+                  multi-feature classification system.
+                </p>
+                <ul class="list">
+                  <li>
+                    Implemented the detection model into a functional web app using Python and
+                    Flask, covering data preprocessing, feature engineering, model training, and
+                    scalable deployment.
+                  </li>
+                  <li>
+                    Built a Logistic Regression model within a TF‑IDF vectorization pipeline;
+                    enhanced classification with VADER sentiment analysis and evaluated performance
+                    using accuracy, precision, and recall.
+                  </li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span class="tag">Python</span>
+                <span class="tag">Flask</span>
+                <span class="tag">Logistic Regression</span>
+                <span class="tag">TF‑IDF</span>
+                <span class="tag">VADER</span>
+              </div>
+              <div class="project-actions">
+                <a
+                  class="link"
+                  href="https://github.com/Harish1077/Fake-Review-Detector"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="icon" aria-hidden="true" data-icon="github"></span>
+                  GitHub
+                </a>
+                <a class="link" href="#contact">
+                  <span class="icon" aria-hidden="true" data-icon="arrow"></span>
+                  See details
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <div class="note reveal">
+            <span class="icon" aria-hidden="true" data-icon="info"></span>
+            <p class="muted">
+              These projects highlight my practical skills in programming, web development, and
+              machine learning fundamentals. I’m actively building more projects focused on cloud
+              technologies and scalable systems to further develop my expertise.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section section-alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-head-text">
+              <span class="section-eyebrow"><span class="section-eyebrow-num">04</span> Education</span>
+              <h2 class="section-title">Education</h2>
+            </div>
+            <p class="section-subtitle mono">Academic track and collaboration details.</p>
+          </div>
+
+          <div class="edu-grid">
+            <div class="card reveal">
+              <div class="card-title-row">
+                <span class="icon" aria-hidden="true" data-icon="graduation"></span>
+                <h3 class="card-title">Bachelor of Technology (B.Tech)</h3>
+              </div>
+              <p class="muted">
+                Computer Science Engineering – <span class="mono">Cloud Computing</span>
+              </p>
+              <div class="keyvals">
+                <div class="kv">
+                  <div class="kv-k mono">University</div>
+                  <div class="kv-v">Lovely Professional University</div>
+                </div>
+                <div class="kv">
+                  <div class="kv-k mono">Program Collaboration</div>
+                  <div class="kv-v">Google</div>
+                </div>
+                <div class="kv">
+                  <div class="kv-k mono">Expected Graduation</div>
+                  <div class="kv-v">2027</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card reveal">
+              <div class="card-title-row">
+                <span class="icon" aria-hidden="true" data-icon="map"></span>
+                <h3 class="card-title">Learning Path</h3>
+              </div>
+              <ul class="timeline">
+                <li>
+                  <span class="timeline-dot" aria-hidden="true"></span>
+                  <div>
+                    <div class="mono">Cloud fundamentals</div>
+                    <div class="muted">Compute, storage, networking, scalability basics</div>
+                  </div>
+                </li>
+                <li>
+                  <span class="timeline-dot" aria-hidden="true"></span>
+                  <div>
+                    <div class="mono">Projects &amp; practice</div>
+                    <div class="muted">Building real interfaces and improving code quality</div>
+                  </div>
+                </li>
+                <li>
+                  <span class="timeline-dot" aria-hidden="true"></span>
+                  <div>
+                    <div class="mono">Career prep</div>
+                    <div class="muted">Internships, interview prep, and system thinking</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="achievements" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-head-text">
+              <span class="section-eyebrow"><span class="section-eyebrow-num">05</span> Beyond code</span>
+              <h2 class="section-title">Achievements &amp; Activities</h2>
+            </div>
+            <p class="section-subtitle mono">Consistency, growth, and interests outside code.</p>
+          </div>
+
+          <div class="cards-2">
+            <div class="card reveal">
+              <div class="card-title-row">
+                <span class="icon" aria-hidden="true" data-icon="bolt"></span>
+                <h3 class="card-title">Highlights</h3>
+              </div>
+              <ul class="list">
+                <li>Consistently working on programming and development practice</li>
+                <li>Interested in cloud infrastructure and scalable systems</li>
+                <li>Creator of a fitness page called <span class="mono">FitForge</span></li>
+              </ul>
+            </div>
+
+            <div class="card reveal">
+              <div class="card-title-row">
+                <span class="icon" aria-hidden="true" data-icon="trophy"></span>
+                <h3 class="card-title">What’s Next</h3>
+              </div>
+              <p class="muted">
+                I’m actively expanding my portfolio with cloud-focused projects, improving coding
+                fundamentals, and building polished web experiences with a developer-first design.
+              </p>
+              <div class="mini-stats">
+                <div class="mini">
+                  <div class="mini-k mono">Practice</div>
+                  <div class="mini-v">DSA + projects weekly</div>
+                </div>
+                <div class="mini">
+                  <div class="mini-k mono">Focus</div>
+                  <div class="mini-v">Cloud + backend fundamentals</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-head-text">
+              <span class="section-eyebrow"><span class="section-eyebrow-num">06</span> Connect</span>
+              <h2 class="section-title">Contact</h2>
+            </div>
+            <p class="section-subtitle mono">Send a message or reach me on platforms.</p>
+          </div>
+
+          <div class="contact-grid">
+            <form class="card contact-form reveal" id="contactForm">
+              <div class="card-title-row">
+                <span class="icon" aria-hidden="true" data-icon="mail"></span>
+                <h3 class="card-title">Message Me</h3>
+              </div>
+
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required />
+              </div>
+
+              <div class="field">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  required
+                />
+              </div>
+
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Write your message..."
+                  required
+                ></textarea>
+              </div>
+
+              <button class="btn btn-primary" type="submit">
+                <span class="icon" aria-hidden="true" data-icon="send"></span>
+                Send Message
+              </button>
+
+              <p class="form-hint muted">
+                This form opens your email client (no backend needed).
+              </p>
+            </form>
+
+            <div class="card reveal">
+              <div class="card-title-row">
+                <span class="icon" aria-hidden="true" data-icon="share"></span>
+                <h3 class="card-title">Links</h3>
+              </div>
+
+              <div class="links">
+                <a class="social" href="mailto:harishragavendra@example.com">
+                  <span class="icon" aria-hidden="true" data-icon="mail"></span>
+                  <div>
+                    <div class="social-k mono">Email</div>
+                    <div class="social-v muted">harishragavendra@example.com</div>
+                  </div>
+                </a>
+
+                <a
+                  class="social"
+                  href="https://www.linkedin.com/in/harishragavendra117"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="icon" aria-hidden="true" data-icon="linkedin"></span>
+                  <div>
+                    <div class="social-k mono">LinkedIn</div>
+                    <div class="social-v muted">/in/harishragavendra117</div>
+                  </div>
+                </a>
+
+                <a
+                  class="social"
+                  href="https://github.com/Harish1077"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="icon" aria-hidden="true" data-icon="github"></span>
+                  <div>
+                    <div class="social-k mono">GitHub</div>
+                    <div class="social-v muted">@Harish1077</div>
+                  </div>
+                </a>
+                
+              <div class="divider"></div>
+              <a
+                class="btn btn-soft"
+                href="./assets/Harish_Ragavendra_Resume.pdf"
+                download="Harish_Ragavendra_Resume.pdf"
+              >
+                <span class="icon" aria-hidden="true" data-icon="download"></span>
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <div class="mono footer-brand">Harish Ragavendra</div>
+          <div class="muted">Cloud Computing Student • Aspiring Cloud Engineer</div>
+        </div>
+        <div class="footer-right">
+          <a class="link" href="#top">
+            <span class="icon" aria-hidden="true" data-icon="up"></span>
+            Back to top
+          </a>
+          <div class="mono muted">© <span id="year"></span> • Built with HTML/CSS/JS</div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
